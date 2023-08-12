@@ -15,7 +15,7 @@ int main(void)
 		(z <= 'z') {
 			if ((z != 'q' && z != 'e') && z <= 'z')
 				putchar(z);
-				z++;
+			z++;
 		}
 	putchar('\n');
 	return (0);
