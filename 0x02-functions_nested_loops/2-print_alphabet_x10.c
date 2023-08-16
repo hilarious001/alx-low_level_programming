@@ -9,14 +9,15 @@
 void print_alphabet_x10(void)
 {
 	char a;
-	int d;
-
-	for (d = 0; d < 10; d++)
+	int d = 0;
+	
+	while ( d < 10)
 	{
 		for (a = 'a'; a <= 'z'; a++)
 		{
 			_putchar(a);
 		}
+		_putchar('\n');
+		d++;
 	}
-	_putchar('\n');
 }
