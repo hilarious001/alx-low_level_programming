@@ -1,5 +1,4 @@
 #include "main.h"
-#include "string.h"
 
 /**
  * leet - encode into 1337speak
