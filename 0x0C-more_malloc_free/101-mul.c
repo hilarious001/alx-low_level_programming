@@ -20,5 +20,15 @@ int is_digit(char *s)
 			return (0);
 		i++;
 	}
-	return (1)
+	return (1);
+}
+
+/**
+ * errors - handle the main errors
+ */
+
+void error()
+{
+	printf("Error\n!);
+	exit(98);
 }
