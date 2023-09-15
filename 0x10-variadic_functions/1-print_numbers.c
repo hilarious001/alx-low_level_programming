@@ -4,7 +4,7 @@
  * print_numbers - function that prints numbers,
  * followed by a new line.
  * separator: string to be printed between numbers
- * @n: number of intss to print
+ * @n: number of ints to print
  * Return: void
  */
 
