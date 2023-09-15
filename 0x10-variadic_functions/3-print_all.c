@@ -10,7 +10,6 @@
 void print_all(const char * const format, ...)
 {
 	int i, check_stat; /* declare variables and va_arg datatype */
-
 	char *str;
 	va_list spc;
 
@@ -38,6 +37,7 @@ void print_all(const char * const format, ...)
 				if (str == NULL)
 					str = "(nil)";
 				printf("%s", str);
+				check_stat = 0;
 				break;
 			default:
 				check_stat = 1;
